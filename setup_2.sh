@@ -43,9 +43,9 @@ echo "LC_ALL=en_US.UTF-8" >> /etc/environment
 echo "---> Installing basic packages..."
 echo
 pacman -Syy
-pacman -Sy --noconfirm $(<pkg/base.txt)
-pacman -Sy --noconfirm $(<pkg/sound.txt)
-pacman -Sy --noconfirm $(<pkg/video.txt)
+pacman -Sy --noconfirm --needed $(<pkg/base.txt)
+pacman -Sy --noconfirm --needed $(<pkg/sound.txt)
+pacman -Sy --noconfirm --needed $(<pkg/video.txt)
 
 
 echo "---> Creating users..."
