@@ -1,10 +1,15 @@
+akregator
 ark
 dolphin
 dolphin-plugins
 firefox
 flatpak
 freerdp
+gtk2
+gtk3
+gtk4
 gutenprint
+hicolor-icon-theme
 hunspell
 hunspell-en_us
 hunspell-el
@@ -13,6 +18,7 @@ jre-openjdk
 kaddressbook
 kate
 kdeconnect
+kdepim-addons
 keepassxc
 kmail
 konsole
@@ -41,5 +47,6 @@ smplayer-skins
 smplayer-themes
 spectacle
 system-config-printer
+webkit2gtk
 xdg-desktop-portal-kde
 xorg-server
