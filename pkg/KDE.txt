@@ -5,6 +5,7 @@ dolphin-plugins
 firefox
 flatpak
 freerdp
+glib2
 gtk2
 gtk3
 gtk4
