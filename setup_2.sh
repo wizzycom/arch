@@ -44,7 +44,7 @@ pacman -Syy
 pacman -Sy --noconfirm --needed $(<pkg/base.txt)
 pacman -Sy --noconfirm --needed $(<pkg/sound.txt)
 pacman -Sy --noconfirm --needed $(<pkg/video.txt)
-
+pacman -Sy --noconfirm --needed $(<pkg/others.txt)
 
 echo "---> Creating users..."
 echo
