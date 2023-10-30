@@ -1,0 +1,7 @@
+docker
+qemu
+libvirt
+wireshark-qt
+virtualbox
+virtualbox-host-dkms
+virtualbox-guest-iso
