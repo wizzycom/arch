@@ -5,3 +5,4 @@ wireshark-qt
 virtualbox
 virtualbox-host-dkms
 virtualbox-guest-iso
+virtualbox-sdk
