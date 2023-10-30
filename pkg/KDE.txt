@@ -16,6 +16,7 @@ hunspell-en_us
 hunspell-el
 hyphen-en
 jre-openjdk
+kaccounts-providers
 kaddressbook
 kate
 kdeconnect
