@@ -79,6 +79,10 @@ dd if=/dev/zero of=/swapfile bs=1M count=2048 status=progress
 chmod 600 /swapfile
 mkswap /swapfile
 echo "vm.swappiness=10" > /etc/sysctl.d/99-swappiness.conf
+
+echo "---> Adding additional entries to fstab..."
+echo
+echo "/dev/sdb1 /mnt/sdb1 auto nosuid,nodev,nofail,x-gvfs-show 0 0" >> /etc/fstab
 echo "/swapfile none swap defaults 0 0" >> /etc/fstab
 
 echo "---> Installing KDE packages..."
