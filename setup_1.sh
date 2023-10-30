@@ -10,7 +10,7 @@ mkfs.ext4 /dev/sda1
 echo "---> Installing basic packages and mounting root..."
 echo
 mount /dev/sda1 /mnt
-pacstrap -K /mnt base base-devel linux-lts linux-firmware intel-ucode nano pacman-contrib
+pacstrap -K /mnt base base-devel linux-lts linux-firmware intel-ucode nano pacman-contrib git
 genfstab -U /mnt >> /mnt/etc/fstab
 
 echo
