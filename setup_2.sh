@@ -94,6 +94,8 @@ systemctl enable acpid
 systemctl enable avahi-daemon
 systemctl enable bluetooth
 systemctl enable cups.service
+systemctl enable docker.service
+systemctl enable libvirtd.service
 systemctl enable NetworkManager
 systemctl enable sshd
 systemctl enable fstrim.timer
