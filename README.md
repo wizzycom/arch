@@ -2,10 +2,9 @@
 
 This is just small simple scripts that help me install my PC.
 
-**IMPORTANT** : If you like to use them, review the code because many things like disks, usernames and locales are hardcoded. No selection memu is offered. And don't forget, use then at your own risk
+**IMPORTANT** : If you like to use them, review the code because many things like disks, usernames and locales are hardcoded. No selection memu is offered. And don't forget, use them at your own risk
 
-1. Update pacman
-2. Install git
-3. Clone this repo
-
-After arch-chroot, the repo must be cloned again
+**setup_1.sh** : Disk partitioning and pacstrap
+**setup_2.sh** : Main installation
+**setup_2.sh** : Main installation on VMWare workstation
+**setup_2_vm.sh** : Post installation of yay and AUR packages
