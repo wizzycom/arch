@@ -8,6 +8,6 @@ This is just small simple scripts that help me install my PC.
 
 **setup_2.sh** : Main installation
 
-**setup_2.sh** : Main installation on VMWare workstation
+**setup_2_vm.sh** : Main installation on VMWare workstation
 
-**setup_2_vm.sh** : Post installation of yay and AUR packages
+**post_setup_1.sh** : Post installation of yay and AUR packages
