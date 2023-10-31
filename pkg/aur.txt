@@ -3,3 +3,4 @@ vpcs
 ubridge
 gns3-server
 gns3-gui
+zotero
