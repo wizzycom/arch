@@ -60,6 +60,10 @@ echo "---> Adding additional entries to fstab..."
 echo
 echo "/swapfile none swap defaults 0 0" >> /etc/fstab
 
+echo "---> Installing extended packages..."
+echo
+pacman -Sy --noconfirm --needed $(<pkg/extended_server.txt)
+
 echo "---> Enabling services..."
 echo
 
