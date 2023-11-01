@@ -39,13 +39,7 @@ pacman -Sy --noconfirm --needed $(<pkg/base_server.txt)
 
 echo "---> Creating users..."
 echo
-useradd -m -G wheel wizzy
-usermod --password $(echo password | openssl passwd -1 -stdin) wizzy
 usermod --password $(echo password | openssl passwd -1 -stdin) root
-
-echo "## User privilege specification" >> /etc/sudoers.d/users
-echo "## Uncomment to allow members of group wheel to execute any command" >> /etc/sudoers.d/users
-echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/users
 
 sed -i "/HOOKS=(base udev autodetect modconf kms keyboard keymap consolefont block filesystems fsck)/c\HOOKS=(base udev autodetect modconf kms keyboard keymap block filesystems fsck)" /etc/mkinitcpio.conf
 mkinitcpio -P
