@@ -1,11 +1,9 @@
 acpi
 acpi_call-dkms
 acpid
-avahi
 bash-completion
 bzip2
 bzip3
-cups
 dialog
 dnsutils
 grub
@@ -13,7 +11,6 @@ gzip
 inetutils
 linux-lts-headers
 networkmanager
-network-manager-applet
 net-tools
 ntfs-3g
 openssh
