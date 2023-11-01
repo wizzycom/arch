@@ -8,7 +8,6 @@ bzip3
 cups
 dialog
 dnsutils
-git
 grub
 gzip
 inetutils
@@ -23,5 +22,4 @@ unzip
 wget
 xdg-user-dirs
 xdg-utils
-xorg-server
 zip
