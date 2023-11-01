@@ -1,0 +1,8 @@
+bind
+mariadb
+mdadm
+minidlna
+nginx
+php-fpm
+postfix
+samba
