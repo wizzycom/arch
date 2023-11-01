@@ -17,6 +17,7 @@ network-manager-applet
 net-tools
 ntfs-3g
 openssh
+parted
 unrar
 unzip
 wget
