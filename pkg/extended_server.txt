@@ -3,6 +3,8 @@ mariadb
 mdadm
 minidlna
 nginx
-php-fpm
+php-legacy
+php-legacy-fpm
+php-legacy-gd
 postfix
 samba
