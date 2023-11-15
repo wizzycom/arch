@@ -49,7 +49,7 @@ pacman -Sy --noconfirm --needed $(<pkg/others.txt)
 
 echo "---> Creating users..."
 echo
-useradd -m -G wheel wizzy
+useradd -m -G wheel,audio,video,storage wizzy
 usermod --password $(echo password | openssl passwd -1 -stdin) wizzy
 usermod --password $(echo password | openssl passwd -1 -stdin) root
 
