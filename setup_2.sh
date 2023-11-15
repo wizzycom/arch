@@ -12,6 +12,7 @@ sed -i "/^#el_GR.UTF-8 UTF-8/ cel_GR.UTF-8 UTF-8" /etc/locale.gen
 sed -i "/^#cy_GB.UTF-8 UTF-8/ ccy_GB.UTF-8 UTF-8" /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
+export LANG=en_US.UTF-8
 
 echo "---> Setting hosts and hostname..."
 echo
