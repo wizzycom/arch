@@ -1,4 +1,5 @@
 mesa
+rocm-opencl-runtime
 xf86-video-amdgpu
 xf86-video-ati
 libva-mesa-driver
