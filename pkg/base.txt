@@ -8,6 +8,7 @@ bzip3
 cups
 dialog
 dnsutils
+dosfstools
 git
 grub
 gzip
